@@ -17,7 +17,7 @@ import {
   TiWeatherSunny,
 } from "react-icons/ti";
 import { WiHail, WiSleet } from "react-icons/wi";
-import { CityForecastTimeStamp } from "../services/fetchForecast";
+import { CityForecastTimeStamp } from "../hooks/useCityForecast";
 
 interface Props {
   conditionCode: CityForecastTimeStamp["conditionCode"];
