@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export default axios.create({
-  baseURL: "https://api.meteo.lt/v1",
+  baseURL: "https://express-meteo-app.vercel.app/",
 });
